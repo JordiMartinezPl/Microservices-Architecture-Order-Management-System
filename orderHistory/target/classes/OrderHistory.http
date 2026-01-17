@@ -1,0 +1,48 @@
+###create orderhistory
+POST http://localhost:8004/orderHistory
+Content-Type: application/json
+
+{
+  "productId": 1,
+  "productName": "Chess Board Classic",
+  "price": 49.99,
+  "quantity": 2,
+  "customerId": 1001,
+  "clientName": "John fafa",
+  "clientEmail": "john.doe@example.com",
+  "clientDirection": "123 Main St",
+  "creationDate": "2025-03-10T22:38:13.806",
+  "orderId": 5001
+}
+
+###found orderhistory by id
+GET http://localhost:8004/orderHistory/4348
+Accept: application/json
+
+###found completed orderhistory
+GET http://localhost:8004/orderHistory/finished
+Accept: application/json
+
+###found cancelled orderhistory
+GET http://localhost:8004/orderHistory/cancelled
+Accept: application/json
+
+###found orderhistory by client id
+GET http://localhost:8004/orderHistory/client/7
+Accept: application/json
+
+### find order histories by creation date range
+GET http://localhost:8004/orderHistory/date-range?startDate=2025-03-10T00:00:00&endDate=2025-03-12T23:59:59
+Accept: application/json
+
+### update orderhistory by id
+PUT http://localhost:8004/orderHistory/46789/cancelled?cancelledDate=2025-03-12T14:30:00
+Content-Type: application/json
+
+### delete orderhistory by id
+PUT http://localhost:8004/orderHistory/6517/completed?completedDate=2025-03-11T14:30:00
+Content-Type: application/json
+
+### Rejected order
+PUT http://localhost:8004/orderHistory/4756687/rejected?rejectedDate=2025-03-11T14:30:00
+Content-Type: application/json

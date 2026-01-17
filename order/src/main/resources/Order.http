@@ -1,0 +1,50 @@
+### order
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+
+### order not enough stock
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+
+{
+  "productId": 1,
+  "quantity": 2200,
+  "customerId": 1
+}
+
+
+
+### order too expensive product
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+
+{
+  "productId": 4,
+  "quantity": 1,
+  "customerId": 1
+}
+
+### order
+POST http://localhost:8000/orders
+Content-Type: application/json
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+
+### Cancel an order
+POST http://localhost:8000/orders/2/cancel
+Accept: application/json

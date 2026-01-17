@@ -1,0 +1,26 @@
+### Get a product by ID
+GET http://localhost:8001/product/2
+Accept: application/json
+
+### Get stock of a product by ID
+
+GET http://localhost:8001/product/1/stock
+Accept: application/json
+
+###Reserve stock of a product by ID
+
+### Reserve stock of a product by ID
+POST http://localhost:8001/product/1/reserve/200
+Accept: application/json
+
+### Restore  stock from a product by ID
+POST http://localhost:8001/product/2/restore?quantity=5
+Accept: application/json
+
+### Get price of a product by ID
+GET http://localhost:8001/product/2/price?quantity=3
+Accept: application/json
+
+### Update status of a product by ID
+PUT http://localhost:8001/product/2/status?status=OUT_OF_STOCK
+Accept: application/json

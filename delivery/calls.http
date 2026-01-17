@@ -1,0 +1,13 @@
+### call reserveTruck
+POST http://localhost:8003/deliveries
+Content-Type: application/json
+
+{
+  "orderId": 1,
+  "address": "123 Main St",
+  "customerName": "John Doe",
+  "customerEmail": "johnDoe@pepe.cat"
+}
+
+### call cancelDelivery
+PUT http://localhost:8003/deliveries/2

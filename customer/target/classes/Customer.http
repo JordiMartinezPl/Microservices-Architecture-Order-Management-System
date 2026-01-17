@@ -1,0 +1,15 @@
+### Get a customer by ID
+GET http://localhost:8002/customers/2
+Accept: application/json
+
+### Check if a customer has enough credit
+GET http://localhost:8002/customers/1/credit/500
+Accept: application/json
+
+### Deduct credit from a customer
+POST http://localhost:8002/customers/1/deduct/500
+Accept: application/json
+
+### Restore credit to a customer
+POST http://localhost:8002/customers/1/restore/2000000000000000000000000000000000000
+Accept: application/json

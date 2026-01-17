@@ -1,0 +1,63 @@
+spring:
+  application:
+    name: delivery
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+
+  sql:
+    init:
+      mode: always
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/microservices-db
+    username: user
+    password: pwd
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    defer-datasource-initialization: true
+
+server:
+  port: 8003
+
+delivery:
+  truck:
+    availability: 100
+  sendAfter: 30 # seconds
+
+rabbitmq:
+  delivery:
+    cancel:
+      queue: delivery.cancel.queue
+    cannot_cancel:
+      queue: delivery.cannot.cancel.queue
+
+---
+spring:
+  config:
+    activate:
+      on-profile: docker
+
+  datasource:
+    url: jdbc:mysql://mysql:3306/microservices-db
+
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+
+server:
+  port: 8080

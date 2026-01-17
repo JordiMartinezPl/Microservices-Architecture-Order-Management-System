@@ -1,0 +1,619 @@
+POST http://localhost:8000/orders/2/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/1/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-03-16T182708.404.json
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 4,
+  "quantity": 1,
+  "customerId": 1
+}
+
+<> 2025-03-16T182658.400.txt
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 4,
+  "quantity": 1,
+  "customerId": 1
+}
+
+<> 2025-03-16T182330.500.json
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 4,
+  "quantity": 1,
+  "customerId": 1
+}
+
+<> 2025-03-16T182023.500.json
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 4,
+  "quantity": 1,
+  "customerId": 1
+}
+
+<> 2025-03-16T181406.500.json
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 4,
+  "quantity": 1,
+  "customerId": 1
+}
+
+<> 2025-03-16T181141.500.json
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 4,
+  "quantity": 1,
+  "customerId": 1
+}
+
+<> 2025-03-16T181113.500.json
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/1/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/1/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/1/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/1/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/1/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/1/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/1/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/1/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/1/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/1/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/3/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/2/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/5/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+<> 2025-03-13T024207.404.json
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/4/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/3/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/2/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/1/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/1/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
+POST http://localhost:8000/orders
+Content-Type: application/json
+Content-Length: 56
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "productId": 1,
+  "quantity": 1,
+  "customerId": 1
+}
+
+###
+
+POST http://localhost:8000/orders/1/cancel
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+content-length: 0
+
+###
+
